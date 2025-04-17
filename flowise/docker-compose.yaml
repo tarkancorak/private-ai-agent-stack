@@ -1,0 +1,19 @@
+services:
+  private-ai-flowise:
+    image: flowiseai/flowise:latest
+    container_name: private-ai-flowise
+    ports:
+      - "${HOST_PORT}:3000"
+    environment:
+      - FLOWISE_USERNAME=${FLOWISE_USERNAME}
+      - FLOWISE_PASSWORD=${FLOWISE_PASSWORD}
+    volumes:
+      - private-ai-data:/root/.flowise
+    networks:
+      - ai-network
+
+networks:
+  ai-network:
+    external: true
+volumes:
+  private-ai-data:

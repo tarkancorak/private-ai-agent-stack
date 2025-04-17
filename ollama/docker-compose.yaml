@@ -1,0 +1,16 @@
+services:
+  private-ai-ollama:
+    image: ollama/ollama:latest
+    container_name: private-ai-ollama
+    ports:
+      - "${HOST_PORT}:11434"
+    volumes:
+      - private-ai-data:/root/.ollama
+    networks:
+      - ai-network
+
+networks:
+  ai-network:
+    external: true
+volumes:
+  private-ai-data:
