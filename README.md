@@ -35,7 +35,7 @@ Die folgende Grafik veranschaulicht grob das Zusammenspiel der Komponenten im St
 
 ## Voraussetzungen
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) muss installiert sein.
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) und [Git](https://git-scm.com/downloads) müssen installiert sein.
 
 ## Installation
 
