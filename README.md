@@ -1,6 +1,6 @@
 # Private AI Agent Stack
 
-Ein modularer Stack für private, generative KI-Agentensysteme – containerisiert, lokal betreibbar und vollständig Open-Source.
+Ein modularer Stack für private, generative KI-Agentensysteme – containerisiert, lokal betreibbar und größtenteils Open-Source.
 
 Dieser Stack richtet sich an Organisationen und Entwickler:innen, die generative KI unter eigener Kontrolle einsetzen möchten – lokal, on-premise oder in einer selbstverwalteten Cloud. Der Stack bietet volle Kontrolle über Datenflüsse und schafft maximale Flexibilität durch offene Standards.
 
@@ -174,7 +174,7 @@ Ollama eignet sich hervorragend für den lokalen Einsatz und schnelle Entwicklun
 
 ## Warum dieser Stack?
 
-Der Stack ist flexibel, skalierbar und lässt sich schnell an neue Anforderungen anpassen. Die Kombination aus Low-Code-Plattform und vollständig Open-Source-basierter Architektur macht den Stack vielseitig einsetzbar und zukunftssicher:
+Der Stack ist flexibel, skalierbar und lässt sich schnell an neue Anforderungen anpassen. Die Kombination aus Low-Code-Plattform und größtenteils Open-Source-basierter Architektur macht den Stack vielseitig einsetzbar und zukunftssicher:
 
 - Schnell einsetzbar – ideal für interne Tests, Proof-of-Concepts und erste agentenbasierte Workflows.
 - Modular & portabel – alle Komponenten laufen containerisiert und können einzeln skaliert werden.
